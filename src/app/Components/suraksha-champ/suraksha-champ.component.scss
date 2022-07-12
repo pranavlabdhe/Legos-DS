@@ -1,0 +1,449 @@
+@import '../../../../node_modules/@shivani1699/designsystem/colors.scss';
+
+
+
+/** ------------- Typography CSS -------------- **/
+
+.Headline96-light {
+  font-family: 'cera-pro-light';
+  font-size: 96px;
+  letter-spacing: -1.44px;
+}
+.Headline60-light {
+  font-family: 'cera-pro-light';
+  font-size: 60px;
+  letter-spacing: -0.3px;
+}
+.Headline48-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 60px;
+}
+.Headline34-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 34px;
+  letter-spacing: 0.09px;
+}
+.Headline24-regular {
+  font-family: 'cera-pro-bold';
+  font-size: 24px;
+}
+.Headline20-medium {
+  font-family:  'cera-pro-medium';
+  font-size: 20px;
+  letter-spacing: 0.15px;
+}
+.Headline18-medium {
+  font-family: 'cera-pro-medium';
+  font-size: 18px;    
+  line-height: 1.56;
+}
+.Headlineheadline-bold {
+  font-family:  'cera-pro-bold';
+  font-size: 16px;
+  line-height: 1.35;
+}
+.body16-medium {
+  font-family: 'cera-pro-medium';
+  font-size: 16px;
+  letter-spacing: 0.06px;
+}
+.subtitle16-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 16px;
+  letter-spacing: 0.02px;
+}
+.body16-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 16px;
+  letter-spacing: 0.06px;
+}
+.subtitle14-medium {
+  font-family: 'cera-pro-medium';
+  font-size: 14px;
+  letter-spacing: 0.1px;
+}
+.body14-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 14px;
+  letter-spacing: 0.06px;
+}
+.caption12-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 12px;
+  letter-spacing: 0.4px;
+}
+.captioncaption-3-regular {
+  font-family:'cera-pro-regular';
+  font-size: 11px;
+  line-height: 1.35;
+}
+.caption-caption-2-medium {
+  font-family: 'cera-pro-medium';
+  font-size: 10px;
+  letter-spacing: 0.2px;
+}
+.Overline10-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+
+
+.appbar{
+  height: 48px;
+  z-index: 2;
+  padding: 0 16px;
+  border-bottom: 1px solid #c5c5c7;
+  background-color: #fff;
+  color: #020305;
+  .page-title{
+    padding-left: 16px;
+  }
+}
+.colorstyle{
+  color: #020305;
+}
+.textstyle{
+  color: #565758;
+}
+
+mat-card{
+  padding: 20px;
+}
+
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  
+
+  .card8{  
+      width: 100%;
+      height: auto;
+      border: none;
+  box-shadow: none;
+    }
+  
+  
+}
+.center{
+  text-align: center;
+  padding: 0 10px;
+}
+
+
+
+
+.margin200{
+  margin: 0 200px;
+}
+.form-title{
+  p{
+    margin-bottom: 0;
+  }
+}
+.cap-form{
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.form-item{
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+mat-form-field{
+  width: 270px;
+  height: 6.386066763425254vh;
+  
+}
+.tick{
+  display: none;
+}
+.form-field{
+margin-bottom: 40px;
+}
+:host::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+  color: #95cdf7;
+}
+:host::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: #184e9e;
+}
+
+:host::ng-deep  .field-1{
+  .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick{
+    .mat-form-field-outline-gap{
+      width: 42px !important;
+    }
+  }
+}
+:host::ng-deep .field-2{
+  .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick{
+    .mat-form-field-outline-gap{
+      width: 95px !important;
+    }
+  }
+}
+:host::ng-deep .field-3{
+  .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick{
+    .mat-form-field-outline-gap{
+      width: 112px !important;
+    }
+  }
+}
+:host::ng-deep .field-4{
+  .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick{
+    .mat-form-field-outline-gap{
+      width: 130px !important;
+    }
+  }
+}
+:host::ng-deep .mat-form-field-appearance-outline .mat-form-field-flex {
+  padding: 0 0.75em 0 1em !important;
+}
+:host::ng-deep .mat-form-field-appearance-outline .mat-form-field-infix {
+  padding: 0.25em 0 0.75em 0;
+}
+:host::ng-deep .mat-form-field-appearance-outline .mat-form-field-label {
+  top: 1.34375em;
+  margin-top: -0.25em;
+}
+:host::ng-deep .mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label, .mat-form-field-appearance-outline.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
+  transform: translateY(-1.24375em) scale(0.75);
+  width: 133.3333333333%;
+}
+:host::ng-deep button.mat-raised-button:hover {
+  background-color: #F5C342;
+}
+
+:host::ng-deep .mat-select-panel{
+  margin-top: 44px !important;
+  position: fixed !important;
+}
+:host::ng-deep .tick{
+  display: none;
+}
+:host::ng-deep .mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+  color: black !important ;
+  :host::ng-deep .tick{
+    display: inline !important;
+
+  }
+}
+:host::ng-deep .mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple) {
+   background: #fff !important; 
+}
+
+
+
+:host::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+  background-color: #27A340 !important;
+}
+
+:host::ng-deep .input-with-btn{
+  .mat-form-field-appearance-outline .mat-form-field-prefix, .mat-form-field-appearance-outline .mat-form-field-suffix {
+    top: 0em;
+}
+}
+.subtitle{
+    color: #565758;
+}
+
+
+.large-primary-default{
+  color: black;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 114px 0;
+  line-height: 34.5px;
+  letter-spacing: 0.03px;
+  box-shadow: none;
+  border: solid 2px #F5C342;
+  background-color: #F5C342;
+  margin-top: 25px;
+} 
+.success-screen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+  top: 20%;
+  .text{
+    margin-top: 32px;
+    margin-bottom: 0 !important;
+  }
+  p{
+    color: #565758;
+  }
+}
+@media (min-width:1440px){
+  .cards{
+    
+    .card8{
+      width: 1040px !important;
+    }
+  }
+ 
+}
+
+@media(max-width:599px){
+  .margin200{
+    margin: 0 16px 0 16px !important;
+  }
+  .cards{
+   
+  .card8{
+    width: 100% !important;
+  }
+  }
+  
+}
+@media(min-width:600px){
+  .margin200{
+    margin: 0 32px;
+  }
+}
+@media(min-width:905px){
+ 
+  .item{
+    min-width:167.8px;
+  }
+  .card8{
+    width: 840px !important;
+  }
+  
+}
+@media(min-width:1240px){
+    
+  .margin200{
+    margin: 0 200px;
+  }
+  .card8{
+    width: 100% !important;
+  }
+   
+}
+/*
+  @media (min-width:1440px){
+    .cards{
+      background-color: $card-grey;
+      .card4{
+        width: 358px !important;
+        mat-form-field{
+          width: 298px;
+          height: 6.386066763425254vh;
+          
+        }
+        
+      }
+      .card8{
+        width: 666px !important;
+        background-color: $surface-white;
+      }
+    }
+   
+  }
+  @media(max-width:599px){
+    .margin200{
+      margin: 0 16px !important;
+    }
+    .margin{
+      margin:0;
+    }
+    .cards{
+      display: flex;
+      height: 100vh;
+      flex-direction: column;
+    }
+    .card4{
+      width: 100% !important;
+      margin-right: 0 !important;
+      margin-bottom: 20px;
+    }
+    .card8{
+      width: 100% !important;
+    }
+
+  }
+  @media(min-width:600px){
+    .margin200{
+      margin: 0 32px;
+    }
+
+  }
+  @media(min-width:905px){
+    
+    .card8{
+      width: 536px !important;
+    }
+    .card4{
+      width: 288px !important;
+    }  
+  }
+  @media(min-width:1240px){
+    
+    .margin200{
+      margin: 0 200px;
+    }
+    .card8{
+      width: 65% !important;
+    }
+    .card4{
+      width: 35% !important;
+    }  
+  }
+  
+  @media (min-width:1440px){
+    .cards{
+      background-color: $card-grey;
+      
+      .card8{
+        background-color: $surface-white;
+      }
+    }
+   
+  }
+  @media(max-width:599px){
+    .margin200{
+      margin: 0 16px !important;
+    }
+    .margin{
+      margin:0;
+    }
+    .cards{
+      display: flex;
+      height: 100vh;
+      flex-direction: column;
+    }
+    .card4{
+      width: 100% !important;
+      margin-right: 0 !important;
+      margin-bottom: 20px;
+    }
+    .card8{
+      width: 100% !important;
+    }
+
+  }
+  @media(min-width:600px){
+    .margin200{
+      margin: 0 200px;
+    }
+
+  }
+  
+  @media(min-width:1240px){
+    
+    .margin200{
+      margin: 0 200px;
+    }
+    
+  }
+  */

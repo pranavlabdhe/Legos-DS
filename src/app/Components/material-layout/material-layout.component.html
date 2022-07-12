@@ -1,0 +1,173 @@
+<!--<mat-sidenav-container class="example-container" >
+    <mat-sidenav mode="side" [(opened)]='opened' position="end" >
+      <p class="Headline18-medium">Welcome !!!</p>  
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+      <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div class="cards" [ngClass]= "opened==true?'margin':'margin200'"> 
+            <mat-card class="card8">
+                <button (click)="opened=!opened" >toggle </button>
+                <p class="card-heading Headline18-medium">Title</p>  
+                <div class="card2-content">
+                  <img src="../assets/images/ic_placeholder.svg" height="120px" width="120px" alt="">
+                  <p class=" Headline18-medium"> Small Primary Buttons </p>
+                  <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                  <img src="../assets/images/ic_placeholder.svg" height="120px" width="120px" alt="">
+                  <p class=" Headline18-medium"> Small Primary Buttons </p>
+                  <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                  <img src="../assets/images/ic_placeholder.svg" height="120px" width="120px" alt="">
+                  <p class=" Headline18-medium"> Small Primary Buttons </p>
+                  <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                  <img src="../assets/images/ic_placeholder.svg" height="120px" width="120px" alt="">
+                  <p class=" Headline18-medium"> Small Primary Buttons </p>
+                  <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                  <img src="../assets/images/ic_placeholder.svg" height="120px" width="120px" alt="">
+                  <p class=" Headline18-medium"> Small Primary Buttons </p>
+                  <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                </div>
+            </mat-card>   
+        </div>
+    </mat-sidenav-content>
+    </mat-sidenav-container>
+<mat-sidenav-container> -->
+    <mat-sidenav-container class="example-container" >
+        <mat-sidenav       
+        [mode]="(isHandset$ | async) ? 'over' : 'side'"
+        [(opened)]='opened'
+        position="end" >
+          <div class="side-sheet-header">
+            <p class="Headline18-medium">Welcome !!!</p> 
+            <img class="closebtn" src="../../../assets/images/ic_close.svg" (click)="close()" alt=""> 
+          </div>
+         
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+          <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+    
+        </mat-sidenav>
+        <mat-sidenav-content>
+
+
+            <div class="cards" [ngClass]= "opened==true?'margin':'margin200'"> 
+              <mat-card class="card-4-8 card4">
+                <button (click)="opened=!opened" >toggle </button>
+                <p class="card-heading Headline18-medium"> Small Primary Buttons </p>
+                <mat-form-field class=" body16-regular" appearance="outline">
+                  <mat-label class="body16-regular ">Mobile number</mat-label>
+                  <input matInput placeholder="">
+                </mat-form-field><br><br>
+
+                
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content 123 </span><br>
+    
+              </mat-card>
+            
+              <mat-card class=" card-4-8 card8">
+                <p class="card-heading Headline18-medium">Title</p>  
+                <div class="card2-content">
+                  <img src="../assets/images/ic_placeholder.svg" height="120px" width="120px" alt="">
+                  <p class=" Headline18-medium"> Small Primary Buttons </p>
+                  <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                  <img src="../assets/images/ic_placeholder.svg" height="120px" width="120px" alt="">
+                  <p class=" Headline18-medium"> Small Primary Buttons </p>
+                  <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                  <img src="../assets/images/ic_placeholder.svg" height="120px" width="120px" alt="">
+                  <p class=" Headline18-medium"> Small Primary Buttons </p>
+                  <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                  <img src="../assets/images/ic_placeholder.svg" height="120px" width="120px" alt="">
+                  <p class=" Headline18-medium"> Small Primary Buttons </p>
+                  <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                  <img src="../assets/images/ic_placeholder.svg" height="120px" width="120px" alt="">
+                  <p class=" Headline18-medium"> Small Primary Buttons </p>
+                  <span class=" body14-regular">Swap ◇ content-area from layers panel with a template or your own content </span><br>
+                </div>
+              </mat-card> 
+            </div>
+        </mat-sidenav-content>
+        </mat-sidenav-container>
+      

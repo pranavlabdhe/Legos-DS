@@ -1,0 +1,96 @@
+<mat-toolbar>
+    <mat-toolbar-row class="helpbar">
+      <img src="../assets/images/icon-question-mark-circle.svg"  alt="">
+      <span class="helpbar-text Overline10-regular">24X7 Helpdesk 044 6909090 | <a class="helpbar-id" href="">customercare@paynearby.in</a> </span>
+      <span class="example-spacer"></span>
+      <span class="helpbar-text Overline10-regular">Welcome, <b class="helpbar-bold">Prabhu Enterprises RID 282813</b> </span>
+    </mat-toolbar-row>
+  
+    <mat-toolbar-row class="navbar"> 
+      <div class="navs">
+  
+        <div>
+          <span style="padding-right: 25px ; align-items: center;">
+            <button   mat-icon-button>
+              <img  src="../assets/images/hamburger-menu.svg" alt="">
+            </button>
+            <img src="../assets/images/PayNearby.svg" height="25.6px" width="64px" alt="">
+          </span>
+        </div>
+  
+        <div class="navs scroll">
+          
+          <div class="d-flex">
+            <div id="box">
+              <img src="../assets/images/services-images/Home.svg" height="26px" width="26px"  alt="">     
+              <span class=" nav-item caption12-regular">Home</span>
+            </div>  
+          </div>
+          <div id="box" class="d-flex">
+            <img src="../assets/images/services-images/MoneyTransfer.svg" height="24px" width="24px" alt="">
+            <span class="nav-item caption12-regular">Money transfer</span>
+          </div>
+          <div class="d-flex">
+            <img src="../assets/images/services-images/aeps.svg" height="24px" width="24px" alt="">
+            <span class="nav-item caption12-regular">AePS</span>
+          </div>
+          <div class="d-flex">
+            <img src="../assets/images/services-images/CashCollection.svg" height="24px" width="24px" alt="">
+            <span class="nav-item caption12-regular">Cash collection</span>
+          </div>
+          <div class="d-flex">
+            <img src="../assets/images/services-images/FlightBooking.svg" height="24px" width="24px" alt="">
+            <span class="nav-item caption12-regular">Flight booking</span>
+          </div>
+          <div class="d-flex">
+            <img src="../assets/images/services-images/BillPayments.svg" height="24px" width="24px" alt="">
+            <span class="nav-item caption12-regular">Bill payments</span>
+          </div>
+          <div  class="d-flex">
+            <button id="menu" class="caption12-regular" mat-flat-button [matMenuTriggerFor]="menu">More               <img src="../assets/images/menu_btn_arrow.svg" width="16px" height="12px" alt="">
+            </button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item>Item 1</button>
+              <button mat-menu-item>Item 2</button>
+              <button mat-menu-item>Item 3</button>
+              <button mat-menu-item>Item 4</button>
+            </mat-menu>         
+          </div>
+        </div>
+        <div  class="menubtn">
+          <button class="walletbtn"  mat-icon-button>
+            <img  src="../assets/images/wallet.svg" height="24px" width="24px" alt="">
+          </button>
+          <button class="walletbtn"  mat-icon-button >
+            <img src="../assets/images/reports.svg" alt="">
+          </button>
+          <button class="walletbtn"  mat-icon-button>
+            <img  src="../assets/images/notification.svg" alt="">
+          </button>
+          <button   mat-icon-button>
+            <img  src="../assets/images/hamburger-menu.svg" alt="">
+          </button>
+        </div>
+      </div>  
+    </mat-toolbar-row>
+  
+  <mat-toolbar-row class="appbar">
+      <div>
+        <img src="../assets/images/appbar-ic.svg" height="24px" width="24px" alt="">
+        <span class=" page-title body16-medium">AePS</span>
+      </div>
+      
+  </mat-toolbar-row>
+  
+  </mat-toolbar>
+  
+    <router-outlet></router-outlet>
+  
+  
+  
+   
+    
+  
+     
+  
+  

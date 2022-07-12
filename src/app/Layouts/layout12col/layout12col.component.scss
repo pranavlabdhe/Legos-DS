@@ -1,0 +1,82 @@
+@import '../../../../node_modules/@shivani1699/designsystem/colors.scss';
+.mat-card{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  
+  .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    // height: 100%
+    z-index: -1;
+  
+    .card8{  
+        width: 100%;
+        height: 95vh;
+        border: none;
+        box-shadow: none;
+        background-color: $card-grey;
+      }
+    
+    
+  }
+ 
+  .margin200{
+    margin: 0 200px;
+  }
+
+
+
+
+
+  @media (min-width:1440px){
+    .cards{
+      
+      .card8{
+        width: 1040px !important;
+      }
+    }
+   
+  }
+  
+  @media(max-width:599px){
+    .margin200{
+      margin: 0 16px 0 16px !important;
+    }
+    .cards{
+     
+    .card8{
+      width: 100% !important;
+    }
+    }
+    
+  }
+  @media(min-width:600px){
+    .margin200{
+      margin: 0 32px;
+    }
+   
+  }
+  @media(min-width:905px){
+   
+    .item{
+      min-width:167.8px;
+    }
+    .card8{
+      width: 840px !important;
+    }
+    
+  }
+  @media(min-width:1240px){
+      
+    .margin200{
+      margin: 0 200px;
+    }
+    .card8{
+      width: 100% !important;
+    }
+     
+  }

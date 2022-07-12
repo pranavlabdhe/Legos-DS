@@ -1,0 +1,299 @@
+
+.body16-medium {
+    font-family: 'cera-pro-medium';
+    font-size: 1.6rem;
+    letter-spacing: 0.06px;
+  }
+  .body16-regular {
+    font-family: 'cera-pro-regular';
+    font-size: 1.6rem;
+    letter-spacing: 0.06px;
+  }
+  .subtitle14-medium {
+    font-family: 'cera-pro-medium';
+    font-size: 1.4rem;
+    letter-spacing: 0.1px;
+  }
+  .body14-regular {
+    font-family: 'cera-pro-regular';
+    font-size: 1.4rem;
+    letter-spacing: 0.06px;
+  }
+  .caption12-regular {
+    font-family: 'cera-pro-regular';
+    font-size: 1.2rem;
+    letter-spacing: 0.4px;
+  }
+  :host::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    color: #95cdf7;
+  }
+  :host::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: #184e9e;
+  }
+  :host::ng-deep .mat-form-field-appearance-outline .mat-form-field-flex {
+    padding: 0 0.75em 0 1em !important;
+  }
+  :host::ng-deep .mat-form-field-appearance-outline .mat-form-field-infix {
+    padding: 0.25em 0 0.75em 0;
+  }
+  :host::ng-deep .mat-form-field-appearance-outline .mat-form-field-label {
+    top: 1.34375em;
+    margin-top: -0.25em;
+  }
+  :host::ng-deep .mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label, .mat-form-field-appearance-outline.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
+    transform: translateY(-1.24375em) scale(0.75);
+    width: 133.3333333333%;
+  }
+  .mat-card{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  
+  .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    z-index: -1;
+  
+    .card8{  
+        width: 100%;
+        height: 80vh;
+        border: none;
+        box-shadow: none;
+      }
+    
+    
+  }
+  
+  .margin200{
+    margin: 0 200px;
+  }
+  .appbar{
+    height: 88px;
+    padding: 0 12px;
+    background-color: #fff;
+  }
+  .seperator{
+    color: #565758;
+    height: 2px;
+  }
+  .user{
+    display: flex;
+    padding-left: 16px;
+    flex-direction: column;
+    line-height: 1.5;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  hr {
+    margin:  0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.13;
+  }
+  .mid-emphasis{
+    color: #565758;
+  }
+  .bg-card-grey{
+    background-color: #F5F5F7;
+  }
+  table {
+    width: 100%;
+    box-shadow: none;
+    
+  }
+  .claim-container{
+    box-shadow: 0.5px 0px 2px rgba(0, 0, 0, 0.06), 0px 3px 6px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+  }
+  
+  tr.example-detail-row {
+    height: 0;
+  }
+  
+  tr.example-element-row:not(.example-expanded-row):hover {
+    background: whitesmoke;
+  }
+  
+  tr.example-element-row:not(.example-expanded-row):active {
+    background: #efefef;
+  }
+  
+  .example-element-row td {
+    border-bottom-width: 0;
+  }
+  
+  .example-element-detail {
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .example-element-diagram {
+    min-width: 80px;
+    border: 2px solid black;
+    padding: 8px;
+    font-weight: lighter;
+    margin: 8px 0;
+    height: 104px;
+  }
+  
+  .example-element-symbol {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: normal;
+  }
+  
+  .example-element-description {
+    padding: 16px;
+  }
+  .details-container{
+    background-color: #F5F5F7;
+  }
+  .expanded-row{
+    width: 30%;
+    margin: 14px 12px;
+    padding: 8px 12px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    p{
+      margin-bottom: 2px;
+    }
+  }
+  .close{
+    margin: 14px 0 0 12px;
+  }
+  
+  .example-element-description-attribution {
+    opacity: 0.5;
+  }
+  :host::ng-deep  .calender-field{
+    
+    .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick{
+      .mat-form-field-outline-gap{
+        width: 118px !important;
+      }
+    }
+    padding-bottom: 10px;
+  }
+  :host::ng-deep  .search-field{
+    .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick{
+      .mat-form-field-outline-gap{
+        width: 48px !important;
+      }
+    }
+    padding-left: 16px;
+    padding-bottom: 10px;
+  }
+  :host::ng-deep .mat-date-range-input-start-wrapper .mat-date-range-input-inner {
+    top: 2px;
+  }
+  :host::ng-deep .mat-date-range-input-separator {
+    margin: 0 12px 0 0;
+  }
+  mat-form-field{
+    height: 44px;
+  }
+  :host::ng-deep .mat-date-range-input-inner {
+    font-size: 14px;
+    vertical-align: middle;
+  } 
+  :host::ng-deep .mat-date-range-input-end-wrapper {
+    flex-grow: 1;
+    max-width: calc(50% - 15px);
+  }
+  :host::ng-deep th.mat-header-cell:first-of-type{
+    padding-left: 12px;
+  }
+  :host::ng-deep  td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type{
+    padding-left: 0;
+  }
+  :host::ng-deep tr.mat-header-row {
+    height: 42px;
+    margin-bottom: 12px;
+  }
+  .data-container{
+    margin: 6px 16px 6px 0;
+    padding: 16px 0;
+    p{
+      margin-bottom: 4px;
+    }
+  }
+  .mr-left{
+    margin-left: 12px;
+  }
+  .mat-column-name{
+    width: 38%;
+  }
+  .mat-column-weight{
+    width: 34%;
+  }
+  .mat-column-symbol{
+    width: 16%;
+  }
+  .mat-column-position{
+    width: 12%;
+  }
+  
+  .medium-outline-default{
+    text-align: center;
+    line-height: 32px;
+    padding: 2px 16px 0;
+    border-radius: 4px;
+    letter-spacing: 0.02px;
+    border: solid 2px #dadadc;
+    color: #184e9e;
+  }
+  @media (min-width:1440px){
+    .cards{
+      
+      .card8{
+        width: 1040px !important;
+      }
+    }
+   
+  }
+  
+  @media(max-width:599px){
+    .margin200{
+      margin: 0 16px 0 16px !important;
+    }
+    .cards{
+     
+    .card8{
+      width: 100% !important;
+    }
+    }
+    
+  }
+  @media(min-width:600px){
+    .margin200{
+      margin: 0 32px;
+    }
+   
+  }
+  @media(min-width:905px){
+   
+    .item{
+      min-width:167.8px;
+    }
+    .card8{
+      width: 840px !important;
+    }
+    
+  }
+  @media(min-width:1240px){
+      
+    .margin200{
+      margin: 0 200px;
+    }
+    .card8{
+      width: 100% !important;
+    }
+     
+  }

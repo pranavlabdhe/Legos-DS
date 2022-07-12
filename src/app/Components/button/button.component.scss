@@ -1,0 +1,571 @@
+/** ------------- BUTTONS -------------- **/
+
+
+/** ---------- small primary buttons ---------- **/
+
+@import '../../../../node_modules/@shivani1699/designsystem/colors.scss';
+
+.scroll{
+  overflow-y: auto;
+}
+// Typography classes
+.subtitle14-medium {
+    font-family: 'cera-pro-medium';
+    font-size: 1.4rem;
+    letter-spacing: 0.1px;
+}
+.Headline24-regular {
+    font-family: 'cera-pro-bold';
+    font-size: 2.4rem;
+}
+
+.small-primary-default{
+    color: $surface-white;
+    height: 36px;
+    width: auto;
+    letter-spacing: 0.1px;
+    box-shadow: none;
+    border: 1px solid #4FA333;
+    background: #58B23B;  
+    margin-left: 10px;
+} 
+
+.small-primary-default:hover{
+  color: $surface-white;
+  height: 36px;
+  letter-spacing: 0.1px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.08);
+  border: 1px solid #58B23B;
+  background: #58B23B;
+}   
+.small-primary-disabled{
+    color: $surface-white !important;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 30px;
+    padding: 2px 16px 0;
+    letter-spacing: 0.1px;
+    box-shadow: none;
+    border: solid 2px $primary-200 !important;
+    background-color: $primary-200 !important;
+    margin-left: 10px;
+}
+
+
+/** ---------- small outline buttons ---------- **/
+
+.small-outline-default{
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    padding: 2px 16px 0;
+    letter-spacing: 0.1px;
+    border: solid 2px $black-200;
+    color: $brand-colors-secondary;
+    margin-left: 10px;
+}
+.small-outline-default:hover{
+  background-color: transparent !important;
+}
+.small-outline-color{
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    padding: 2px 16px 0;
+    letter-spacing: 0.1px;
+    border: solid 2px $brand-colors-secondary;
+    color: $brand-colors-secondary;
+    margin-left: 10px;
+}
+.small-outline-color:hover{
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  padding: 2px 16px 0;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.08);
+  background-color: $secondary-50;
+}
+.small-outline-grey{
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    padding: 2px 16px 0;
+    letter-spacing: 0.1px;
+    border: solid 2px $black-200;
+    color: $outline-icons;
+    margin-left: 10px;
+}
+.small-outline-destructive {
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    padding: 2px 16px 0;
+    letter-spacing: 0.1px;
+    border: solid 2px $black-200;
+    color: $red-800;
+    margin-left: 10px;
+}
+.small-outline-disabled{
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    padding: 2px 16px 0;
+    letter-spacing: 0.1px;
+    color: $on-surface-on-white-disabled !important;
+    border: solid 2px $on-surface-on-white-disabled !important;
+    margin-left: 10px;
+}
+
+
+/** ---------- small tertiary buttons ---------- **/
+
+.small-tertiary-default{
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    letter-spacing: 0.1px;
+    padding: 2px 16px 0;
+    border: solid 1px transparent;
+    color: $outline-icons;
+    margin-left: 10px;
+}
+.small-tertiary-destructive{
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    letter-spacing: 0.1px;
+    padding: 2px 16px 0;
+    border: solid 1px transparent;
+    color: $red-800;
+    margin-left: 10px;
+}
+
+.small-tertiary-disabled{
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    letter-spacing: 0.1px;
+    padding: 2px 16px 0;
+    border: solid 1px transparent;
+    background-color: $surface-white !important;
+    color: $on-surface-on-white-disabled !important;
+    margin-left: 10px;
+}
+
+.small-tertiary-color{
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    letter-spacing: 0.1px;
+    padding: 2px 16px 0;
+    border: solid 1px transparent;
+    color: $brand-colors-secondary;
+    margin-left: 10px;
+}
+.small-tertiary-color:hover{
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    letter-spacing: 0.1px;
+    padding: 2px 16px 0;
+    border: solid 1px $grey-50;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.08);
+    background-color: $secondary-50;
+
+}
+
+
+/** ---------- medium primary buttons ---------- **/
+
+.medium-primary-default{
+  color: $surface-white;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 32px;
+  padding: 2px 16px 0;
+  letter-spacing: 0.02px;
+  box-shadow: none;
+  border: solid 2px $primary-600;
+  background-color: $brand-colors-primary;
+  margin-left: 10px;
+} 
+.medium-primary-default:hover{
+color: $surface-white;
+text-align: center;
+line-height: 32px;
+padding: 2px 16px 0;
+letter-spacing: 0.02px;
+border-radius: 4px;
+box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.08);
+border: solid 2px $primary-500;
+background-color: $primary-400;
+}   
+.medium-primary-disabled{
+  color: $surface-white;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 32px;
+  padding: 2px 16px 0;
+  letter-spacing: 0.02px;
+  box-shadow: none;
+  border: solid 2px $card-green !important;
+  background-color: $green-50 !important;
+  margin-left: 10px;
+}
+
+/** ---------- Medium outline buttons ---------- **/
+
+.medium-outline-default{
+  text-align: center;
+  line-height: 32px;
+  padding: 2px 16px 0;
+  border-radius: 4px;
+  letter-spacing: 0.02px;
+  border: solid 2px $black-200;
+  color: $brand-colors-secondary;
+  margin-left: 10px;
+}
+.medium-outline-color{
+  text-align: center;
+  line-height: 32px;
+  padding: 2px 16px 0;
+  border-radius: 4px;
+  letter-spacing: 0.02px;
+  border: solid 2px $brand-colors-secondary;
+  color: $brand-colors-secondary;
+  margin-left: 10px;
+}
+.medium-outline-old{
+  text-align: center;
+  line-height: 32px;
+  padding: 2px 16px 0;
+  border-radius: 4px;
+  font-size: 14px;
+  letter-spacing: 0.02px;
+  border: solid 2px #4764e8;
+  color: #4764e8;
+}
+.medium-outline-color:hover{
+text-align: center;
+line-height: 32px;
+letter-spacing: 0.02px;
+padding: 2px 16px 0;
+border-radius: 4px;
+box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.08);
+background-color: $secondary-50;
+margin-left: 10px;
+}
+.medium-outline-grey{
+  text-align: center;
+  line-height: 32px;
+  border-radius: 4px;
+  padding: 2px 16px 0;
+  letter-spacing: 0.02px;
+  border: solid 2px $black-200;
+  color: $outline-icons;
+  margin-left: 10px;
+}
+.medium-outline-destructive {
+  text-align: center;
+  line-height: 32px;
+  border-radius: 4px;
+  padding: 2px 16px 0;
+  letter-spacing: 0.02px;
+  border: solid 2px $black-200;
+  color: $red-800;
+  margin-left: 10px;
+}
+.medium-outline-disabled{
+  text-align: center;
+  line-height: 32px;
+  border-radius: 4px;
+  padding: 2px 16px 0;
+  letter-spacing: 0.02px;
+  color: $on-surface-on-white-disabled !important;
+  border: solid 2px $on-surface-on-white-disabled !important;
+  margin-left: 10px;
+}
+
+/** ---------- Medium tertiary buttons ---------- **/
+
+.medium-tertiary-default{
+  text-align: center;
+  line-height: 32px;
+  border-radius: 4px;
+  padding: 2px 16px 0;
+  border: solid 1px transparent;
+  letter-spacing: 0.02px;
+  color: $outline-icons;
+  margin-left: 10px;
+}
+.medium-tertiary-destructive{
+  text-align: center;
+  line-height: 32px;
+  border-radius: 4px;
+  padding: 2px 16px 0;
+  border: solid 1px transparent;
+  letter-spacing: 0.02px;
+  color: $red-800;
+  margin-left: 10px;
+}
+
+.medium-tertiary-disabled{
+  text-align: center;
+  line-height: 32px;
+  border-radius: 4px;
+  padding: 2px 16px 0;
+  border: solid 1px transparent;
+  letter-spacing: 0.02px;
+  background-color: $surface-white !important;
+  color: $on-surface-on-white-disabled !important;
+  margin-left: 10px;
+}
+
+.medium-tertiary-color{
+  text-align: center;
+  height: 36px;
+  line-height: 32px;
+  border-radius: 4px;
+  padding: 2px 8px 0;
+  letter-spacing: 0.02px;
+  border: solid 1px transparent;
+  color: #184e9e;
+  margin-left: 10px;
+}
+.medium-tertiary-color:hover{
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.08);
+  background-color: #e4f3fc;
+}
+
+
+/** ---------- Large primary buttons ---------- **/
+
+.large-primary-default{
+  color: $surface-white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 16px 0;
+  line-height: 34.5px;
+  letter-spacing: 0.03px;
+  box-shadow: none;
+  border: solid 2px $primary-600;
+  background-color: $brand-colors-primary;
+  margin-left: 10px;
+} 
+.large-primary-default:hover{
+color: $surface-white;
+text-align: center;
+line-height: 34.5px;
+padding: 2px 16px 0;
+letter-spacing: 0.03px;
+border-radius: 4px;
+box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.08);
+border: solid 2px $primary-500;
+background-color: $primary-400;
+margin-left: 10px;
+}   
+.large-primary-disabled{
+  color: $surface-white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 16px 0;
+  line-height: 34.5px;
+  letter-spacing: 0.03px;
+  box-shadow: none;
+  border: solid 2px $card-green !important;
+  background-color: $green-50 !important;
+  margin-left: 10px;
+}
+
+/** ---------- Large outline buttons ---------- **/
+
+.large-outline-default{
+  text-align: center;
+  line-height: 34.5px;
+  padding: 2px 16px 0;
+  border-radius: 4px;
+  letter-spacing: 0.03px;
+  border: solid 2px $black-200;
+  color: $brand-colors-secondary;
+  margin-left: 10px;
+}
+.large-outline-color{
+  text-align: center;
+  line-height: 34.5px;
+  padding: 2px 16px 0;
+  border-radius: 4px;
+  letter-spacing: 0.03px;
+  border: solid 2px $brand-colors-secondary;
+  color: $brand-colors-secondary;
+  margin-left: 10px;
+}
+.large-outline-color:hover{
+text-align: center;
+line-height: 34.5px;
+letter-spacing: 0.03px;
+padding: 2px 16px 0;
+border-radius: 4px;
+box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.08);
+background-color: $secondary-50;
+}
+.large-outline-grey{
+  text-align: center;
+  line-height: 34.5px;
+  border-radius: 4px;
+  padding: 2px 16px 0;
+  letter-spacing: 0.03px;
+  border: solid 2px $black-200;
+  color: $outline-icons;
+  margin-left: 10px;
+}
+.large-outline-destructive {
+  text-align: center;
+  line-height: 34.5px;
+  border-radius: 4px;
+  padding: 2px 16px 0;
+  letter-spacing: 0.03px;
+  border: solid 2px $black-200;
+  color: $red-800;
+  margin-left: 10px;
+}
+.large-outline-disabled{
+  text-align: center;
+  line-height: 34.5px;
+  border-radius: 4px;
+  padding: 2px 16px 0;
+  letter-spacing: 0.03px;
+  color: $on-surface-on-white-disabled !important;
+  border: solid 2px $on-surface-on-white-disabled !important;
+  margin-left: 10px;
+}
+
+/** ---------- Large tertiary buttons ---------- **/
+
+.large-tertiary-default{
+  text-align: center;
+  line-height: 34.5px;
+  border-radius: 4px;
+  letter-spacing: 0.03px;
+  padding: 2px 16px 0;
+  border: solid 1px transparent;
+  color: $outline-icons;
+  margin-left: 10px;
+}
+.large-tertiary-destructive{
+  text-align: center;
+  line-height: 34.5px;
+  border-radius: 4px;
+  letter-spacing: 0.03px;
+  border: solid 1px transparent;
+  padding: 2px 16px 0;
+  color: $red-800;
+  margin-left: 10px;
+}
+
+.large-tertiary-disabled{
+  text-align: center;
+  line-height: 34.5px;
+  border-radius: 4px;
+  letter-spacing: 0.03px;
+  border: solid 1px transparent;
+  padding: 2px 16px 0;
+  background-color: $surface-white !important;
+  color: $on-surface-on-white-disabled !important;
+  margin-left: 10px;
+}
+
+.large-tertiary-color{
+  text-align: center;
+  line-height: 34.5px;
+  border-radius: 4px;
+  letter-spacing: 0.03px;
+  padding: 2px 16px 0;
+  border: solid 1px transparent;
+  color: $brand-colors-secondary;
+  margin-left: 10px;
+}
+.large-tertiary-color:hover{
+  text-align: center;
+  line-height: 34.5px;
+  border-radius: 4px;
+  letter-spacing: 0.03px;
+  padding: 2px 16px 0;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.08);
+  border: solid 1px $grey-50;
+  background-color: $secondary-50;
+}
+
+// *******New code*******
+
+// .primary_button_section{
+//   display:flex;
+//   width: 100%;
+//   height: 100px;
+//   align-items: center;
+//   height: auto;
+// }
+// .see_code{
+//   color: #727272;
+//   margin: 1em;
+//   font-size: 15px;
+//   font-family: 'cera-pro-bold';
+// }
+// .Headline24-regular{
+//   margin:1em;
+// }
+// .primary_button{
+//   color: black;
+//   margin-left: 10px;
+//   // height: 36px;
+//   width: auto;
+//   letter-spacing: 0.1px;
+//   box-shadow: none;
+//   font-family: 'cera-pro-medium';
+//   font-size: 1.4rem;
+//   letter-spacing: 0.1px; 
+// }
+// .uit-image{
+//   color:  #FFFFFF;;
+// }
+
+// PRIMARY BUTTON VARIANTS
+.primary_button_variants{
+  display: flex;
+}
+.leading_icon{
+  margin-left: 1em;
+}
+.ending_icon{
+  margin-left: 1em;
+}
+.with_icons{
+  margin-left: 1em;
+}
+.disabled{
+  margin-left: 1em;
+}
+.disabled_outlined{
+  margin-left: 1em;
+}
+
+.primary_disabled_variant{
+  display: flex;
+  margin-top:10px ;
+}
+.primary_warn_variant{
+  display: flex;
+  margin-top:0px ;
+}
+.outlined_button_variants{
+  display: flex;
+}
+.outlined_disabled_variant{
+  display: flex;
+  margin-top:10px 
+}
+.warn_disabled_variant{
+  display: flex;
+  margin-top:10px
+}

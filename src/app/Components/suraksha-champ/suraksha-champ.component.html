@@ -1,0 +1,76 @@
+<mat-toolbar class="appbar">
+    <img src="../assets/images/appbar-ic.svg" height="24px" width="24px" alt="">
+    <span class=" page-title Headline20-medium">Get in touch</span>
+  </mat-toolbar>
+  
+  
+           
+           <div class="cards margin200" > 
+            <mat-card class="card8">
+                <div class=" form-group ">
+                  <div class="form-title">
+                    <p class="Headline18-medium colorstyle " >Hello!</p>      
+                    <p class="body16-medium textstyle" >Leave your contact details below and we will get in touch.</p>
+                  </div>
+                  <div class="cap-form">
+                    <div class="row form-item">
+                      <div class="field-1 form-field col-12 col-md-6 ">
+                        <mat-form-field class="   body16-regular justify-content-center align-item-center"  appearance="outline">
+                          <mat-label class=" body16-regular"  >Name</mat-label>
+                          <input matInput placeholder="Placeholder">
+                        </mat-form-field>
+                      </div>
+                      <div class="field-2 col-12 col-md-6 "> 
+                        <mat-form-field class=" form-field body16-regular "  appearance="outline">
+                          <mat-label class="body16-regular">Mobile number</mat-label>
+                          <input type="number" matInput placeholder="Placeholder">
+                        </mat-form-field>
+                      </div>
+                    
+                     
+                    </div>
+  
+                    <div class="row form-item"> 
+                      <div class="field-3 col-12 col-md-6">
+                        <mat-form-field class="  form-field body16-regular " appearance="outline">
+                          <mat-label class="body16-regular">Enter your email</mat-label>
+                          <input matInput placeholder="pat@example.com" [formControl]="email" required>
+                          <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                        </mat-form-field>
+                      </div>
+                      <div class="field-4 col-12 col-md-6">
+                        <mat-form-field class="  form-field body16-regular" appearance="outline">
+                          <mat-label class="body16-regular">Product interested in</mat-label>
+                          <mat-select class="body16-regular">
+                            <mat-option class="body16-regular" *ngFor="let food of foods" [value]="food.value">
+                              {{food.viewValue}} <img class="tick" src="../../../assets/images/dont-replace.svg" alt="">
+                            </mat-option>
+                          </mat-select>
+                        </mat-form-field>
+                      </div>
+                      
+                      
+                    </div>
+                    <div >
+                      <mat-checkbox  ><span class="center caption12-regular"> I’d like to receive offers and promotions from PayNearby</span></mat-checkbox> <br>
+                      <button class='large-primary-default Headline18-medium' mat-raised-button> Submit</button>
+  
+                    </div>
+  
+                  </div>
+                  
+                </div>
+  
+                <!--   Success screen after clicking on submit button -->
+  
+                <div class="success-screen d-none ">
+                  <img src="../../../assets/images/ic_check.svg" alt="">
+                  <p class="text .Headline18-medium">Awesome!</p>
+                  <p class="body16-regular" >You are now one step closer to getting insured. </p>
+                  <p class="body16-regular">We will get in touch with you shortly.</p>
+                  <img src="../../../assets/images/output-onlinegiftools.gif" height="150px" width="153px" alt="">
+                </div>
+  
+  
+            </mat-card>   
+      </div>

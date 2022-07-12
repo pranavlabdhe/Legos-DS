@@ -1,1 +1,276 @@
+@import './mytheming.scss';
+
+html{
+    font-size: 10px;
+}
+
+$a: 5em; 
+
+.mt-xxs-desktop{
+  margin-top:$a
+}
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'cera-pro-regular';
+    src: url('assets/fonts/Cera-Pro-Regular.otf');
+  }
+  
+  @font-face {
+    font-family: 'cera-pro-bold';
+    src: url('assets/fonts/Cera-Pro-Bold.otf');
+  }
+  @font-face {
+    font-family: 'cera-pro-light';
+    src: url('assets/fonts/Cera-Pro-Light.otf');
+  }
+  
+  @font-face {
+    font-family: 'cera-pro-medium';
+    src: url('assets/fonts/Cera-Pro-Medium.otf');
+  }
+ 
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+  /** ------------- Typography CSS -------------- **/
+
+  .Headline96-light {
+    font-family: 'cera-pro-light';
+    font-size: 9.6rem;
+    letter-spacing: -1.44px;
+  }
+  .Headline60-light {
+    font-family: 'cera-pro-light';
+    font-size: 6rem;
+    letter-spacing: -0.3px;
+  }
+  .Headline48-regular {
+    font-family: 'cera-pro-regular';
+    font-size: 4.8rem;
+  }
+  .Headline34-regular {
+    font-family: 'cera-pro-regular';
+    font-size: 3.4rem;
+    letter-spacing: 0.09px;
+  }
+  .Headline24-regular {
+    font-family: 'cera-pro-bold';
+    font-size: 2.4rem;
+  }
+  .Headline20-medium {
+    font-family:  'cera-pro-medium';
+    font-size: 2rem;
+    letter-spacing: 0.15px;
+  }
+  .Headline18-medium {
+    font-family: 'cera-pro-medium';
+    font-size: 1.8rem;    
+    line-height: 1.56;
+  }
+  .Headlineheadline-bold {
+    font-family:  'cera-pro-bold';
+    font-size: 1.6rem;
+    line-height: 1.35;
+  }
+  .body16-medium {
+    font-family: 'cera-pro-medium';
+    font-size: 1.6rem;
+    letter-spacing: 0.06px;
+  }
+  .subtitle16-regular {
+    font-family: 'cera-pro-regular';
+    font-size: 1.6rem;
+    letter-spacing: 0.02px;
+  }
+  .body16-regular {
+    font-family: 'cera-pro-regular';
+    font-size: 1.6rem;
+    letter-spacing: 0.06px;
+  }
+  .subtitle14-medium {
+    font-family: 'cera-pro-medium';
+    font-size: 1.4rem;
+    letter-spacing: 0.1px;
+  }
+  .button{
+    font-family: 'cera-pro-medium';
+    font-size: 14px;
+  }
+  .body14-regular {
+    font-family: 'cera-pro-regular';
+    font-size: 1.4rem;
+    letter-spacing: 0.06px;
+  }
+  .caption12-regular {
+    font-family: 'cera-pro-regular';
+    font-size: 1.2rem;
+    letter-spacing: 0.4px;
+  }
+  .captioncaption-3-regular {
+    font-family:'cera-pro-regular';
+    font-size: 1.1rem;
+    line-height: 1.35;
+  }
+  .caption-caption-2-medium {
+    font-family: 'cera-pro-medium';
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+  }
+  
+  /** Updated Typography **/
+  
+  
+  .headline-1{
+    font-family: 'cera-pro-light';
+    font-size: 9.6rem;
+    letter-spacing: -1.5%;
+  }
+  .headline-2{
+    font-family: 'cera-pro-light';
+    font-size: 6rem;
+    letter-spacing: -0.5%;
+  }
+  .headline-3{
+    font-family: 'cera-pro-regular';
+    font-size: 4.8rem;
+  }
+  .headline-4{
+    font-family: 'cera-pro-regular';
+    font-size: 3.4rem;
+    letter-spacing: 0.25%;
+  }
+  .headline-5{
+    font-family: 'cera-pro-regular';
+    font-size: 2.4rem;
+  }
+  .headline-6{
+    font-family:  'cera-pro-medium';
+    font-size: 2rem;
+    letter-spacing: 0.15px;
+  }
+  .headline-7{
+    font-family: 'cera-pro-medium';
+    font-size: 1.8rem;    
+  }
+  .subtitle-1{
+    font-family:  'cera-pro-regular';
+    font-size: 1.6rem;
+    letter-spacing: 0.15%;
+  }
+  .subtitle-2{
+    font-family: 'cera-pro-medium';
+    font-size: 1.4rem;
+    letter-spacing: 0.1 px;
+  }
+  .button{
+    font-family: 'cera-pro-medium';
+    font-size: 1.6rem;
+  }
+  .body-1{
+    font-family: 'cera-pro-regular';
+    font-size: 1.6rem;
+    letter-spacing: 0.4%;
+  }
+  .body-2{
+    font-family: 'cera-pro-regular';
+    font-size: 1.4rem;
+    letter-spacing: 0.4%;
+  }
+  
+  .caption{
+    font-family: 'cera-pro-regular';
+    font-size: 1.2rem;
+    letter-spacing: 0.4px;
+  }
+  .overline{
+    font-family:'cera-pro-regular';
+    font-size: 1rem;
+    letter-spacing: 0.5 px;
+  }
+  .headline-7-cap {
+    font-family: 'cera-pro-medium';
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+  }
+  .Overline10-regular {
+    font-family: 'cera-pro-regular';
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+  }
+
+// left-right margin 
+
+
+  // .root{
+  //   --margin-lr-mobile-small-tablet:10px;
+  //   --margin-left : calc( 0.4 * var(--margin-lr-mobile-small-tablet));
+  //   --margin-right: calc(0.8 * var(--margin-lr-mobile-small-tablet));  
+  // }
+//   :root {
+//     --space-unit: 1em;
+//     --space-xxs:  calc(0.25 * var(--space-unit));
+//     --space-xs:   calc(0.5 * var(--space-unit));
+//     --space-sm:   calc(0.75 * var(--space-unit));
+//     --space-md:   calc(1.25 * var(--space-unit));
+//     --space-lg:   calc(2 * var(--space-unit));
+//     --space-xl:   calc(3.25 * var(--space-unit));
+//     --space-xxl:  calc(5.25 * var(--space-unit));
+// }
+//   .margin-small-devices{ //mobile and small tablet
+//     margin-left: var( --space-xxl);
+//   }
+
+// $font-weight:(
+//   "regular":200,
+//   "medium":500,
+//   "bold":700
+// );
+// $margin:(
+//   "margin-left":16px,
+//   "margin-right":16px,
+//   "margin-bottom":20px,
+// );
+// $spacing:(
+//   ""
+// );
+// @function weight($weight-name){
+//   @return map-get($font-weight ,$weight-name);
+// }
+
+
+// @mixin mobile {
+//     @media(max-width:600px) {
+//       @content;
+//     }
+// }
+// .margin_left{
+//   font-weight: weight(regular);
+//   margin-left: map-get($margin, "margin-left" ) * 2; // multiplication in scss
+// }
+// .margin_right{
+//   margin-right: map-get($margin, "margin-right");
+// }
+// .main{
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 100%;
+//   background-color: bisque;
+  
+//   h1:hover{
+//     font-weight: weight(bold);
+//   }
+//   p{
+//     font-size: 1.5em;
+//   }
+//   @include mobile {
+//     flex-direction: column;
+//   }
+// }
+
+.primary_button_text{
+  color: black;
+}

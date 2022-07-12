@@ -1,0 +1,75 @@
+@import '../../../../node_modules/@shivani1699/designsystem/colors.scss';
+.helpbar{
+    height: 20px;
+    width: 100%;
+    padding: 0 20px;
+    background-color: $card-blue;
+  .helpbar-id{
+    color: $on-surface-on-white-high-emphasis;
+  }
+  .helpbar-bold{
+    font-size: 10px;
+    font-family: 'cera-pro-bold';
+  }
+  .helpbar-text{
+    padding-left: 9px;
+    color: $on-surface-on-white-high-emphasis;
+  }
+  }
+  .navs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  
+  }
+  .navbar{
+    height: 48px;
+    width: 100%;
+    padding: 0 16px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06), 0px 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: $surface-white;
+    color: $on-surface-on-white-high-emphasis;
+    .d-flex{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding-left: 28px;
+  
+      .nav-item {
+        padding-left: 6px;
+      }
+    }
+  }
+  #box:hover{
+    background-color: $interaction-states-hover-secondary;
+  }
+  .menubtn{
+    .mat-icon-button{
+      height: 36px !important;
+      width: 36px !important;
+    }
+  }
+  
+  .walletbtn { 
+    border: 1px solid #f5f5f7 !important;
+    margin: 6px 12px 6px 0 !important;
+    border-radius: 5px;
+    line-height: 0px;
+    
+  }
+  
+  .appbar{
+    display: none;
+    height: 48px;
+    z-index: 2;
+    padding: 0 16px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06), 0px 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: $surface-white;
+    color: $on-surface-on-white-high-emphasis;
+    .page-title{
+      padding-left: 16px;
+    }
+  }
+  

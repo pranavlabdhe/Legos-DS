@@ -1,0 +1,259 @@
+@import '../../../../node_modules/@shivani1699/designsystem/colors.scss';
+
+.main-cont{
+  height: calc(100% - 74px) !important;
+}
+mat-card{
+    padding-top: 11px;
+  }
+  .cards{
+    display: flex;
+    height: calc(100% - 156px) !important;
+    flex-direction: row;
+    margin: 20px;
+    .card123{
+        background-color: $surface-white;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+        width: 33.40625vw;
+        border-radius: 12px;
+    }
+    .mr-16{
+        margin-right: 16px  ;
+      }
+  }
+  .card-heading{
+    margin-bottom: 34px;
+  }
+  .card-content{
+    color: $on-surface-on-white-mid-emphasis;
+  }
+  .card2-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .li-t-Icon{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    .t-s-icon{
+      padding-left: 16px;
+    }
+    p{
+      margin-bottom: 0;
+    }
+  }
+  .mat-list-base .mat-list-item  .li-l-Icon .mat-list-icon{
+    padding: 0 32px 0 0;
+  }
+ 
+  .li-l-Icon{
+    display: flex;
+    width: 100%;
+    .l-s-icon{
+      padding-right: 32px;
+    }
+    p{
+      margin-bottom: 0;
+    }
+  }
+  .mat-list-base .mat-list-item  .li-s-lt-Icon .mat-list-icon{
+    padding: 0 16px 0 0;
+    width: 40px;
+    height: 40px;
+  }
+  .li-s-lt-Icon{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    .sub-li{
+      display: flex;
+      width: 100%;
+      vertical-align: middle;
+      justify-content: space-between;
+
+    }
+    .l-s-icon{
+      padding-right: 32px;
+    }
+    p{
+      margin-bottom: 0;
+    }
+  }
+  
+  :host::ng-deep  .mat-list-base .mat-list-item .mat-list-item-with-avatar {
+    height: 72px;
+}
+  .mat-list-base .mat-list-item .mat-list-icon{
+    border-radius: 0;
+  }
+  :host::ng-deep .mat-pseudo-checkbox-checked{
+    background: $primary-500;
+  }
+  :host::ng-deep .mat-pseudo-checkbox{
+    border-radius: 4px;
+    border-color: $outline-icons;
+  }
+
+  .list-style{
+    list-style-type:none;
+    padding: 0;
+  }
+  .list-item{
+    padding: 16px ;
+    p{
+      margin-bottom: 0;
+    }
+  }
+  .list-item:hover{
+    background: $card-grey;
+  }
+  :host::ng-deep .mat-checkbox-inner-container{
+    margin-right: 32px;
+  }
+  :host::ng-deep .mat-checkbox-layout{
+    margin-bottom: 0;
+  }
+  :host::ng-deep .mat-checkbox-frame{
+    border-radius: 4px;
+  }
+  :host::ng-deep .mat-list-base .mat-list-item.mat-list-item-with-avatar .mat-list-item-content .mat-list-text{
+    padding-left: 0;
+  }
+  
+  .list-img{
+    position: absolute;
+    right:32px;
+  }
+  .item-overline{
+    p{
+      margin-bottom: 0;
+    }
+  }
+  .two-line{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    p{
+      margin-bottom: 0;
+    }
+  }
+  
+  .overline-color{
+    color: $on-surface-on-white-mid-emphasis;
+    padding-top: 14px;
+  }
+  :host::ng-deep .mat-list-base .mat-list-item .mat-line:nth-child(n+2) {
+    font-size: 12px;
+    color: $on-surface-on-white-mid-emphasis;
+}
+  :host::ng-deep .mat-list-base .mat-list-item .item-overline .mat-line:nth-child(n+2) {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  :host::ng-deep .mat-list-base .mat-list-item .item-overline .mat-line:nth-child(n+3) {
+    font-size: 12px;
+    color: $on-surface-on-white-mid-emphasis;
+  }
+  :host::ng-deep .mat-list-base .mat-list-item.mat-3-line, .mat-list-base .mat-list-option.mat-3-line {
+    height: 80px;
+}
+:host::ng-deep .mat-list-base .mat-list-item .mat-line {
+  white-space: normal;
+}
+
+:host::ng-deep .mat-list-base .mat-list-item .mid-width{
+  img{
+    height: 40px;
+    width: 40px;
+  }
+  }
+  .height-72{
+    width: 100%;
+  }
+  :host::ng-deep .mat-radio-button {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+:host::ng-deep .height-72 .mat-radio-button{
+  height: 72px;
+}
+  :host::ng-deep .mat-radio-label {
+   
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+:host::ng-deep  .mat-radio-label-content {
+  display: flex;
+}
+:host::ng-deep  .mat-radio-container {
+  margin-right: 16px;
+}
+.link{
+  text-decoration: none;
+  color: $brand-colors-secondary;
+}
+.mrl-16{
+  margin:  0 16px;
+}
+  .example-radio-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px 0;
+    align-items: flex-start;
+  }
+  :host::ng-deep .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+    border-color: $brand-colors-primary;
+}
+:host::ng-deep  .mat-radio-button.mat-accent .mat-radio-inner-circle{
+  background-color: $brand-colors-primary;
+}
+
+:host::ng-deep .height-72 .mat-list-base .mat-list-item.mat-list-item-with-avatar{
+  height: 72px;
+}
+/*two line list*/
+
+:host::ng-deep .mat-list-base .mat-list-item.mat-2-line, .mat-list-base .mat-list-option.mat-2-line {
+  height: 64px;
+}
+
+:host::ng-deep .check-48 .mat-list-base .mat-list-item .mat-list-item-content-reverse, .mat-list-base .mat-list-option .mat-list-item-content-reverse {
+ 
+  flex-direction: row;
+}
+:host::ng-deep .check-56 .mat-list-base .mat-list-item .mat-list-item-content-reverse, .mat-list-base .mat-list-option .mat-list-item-content-reverse {
+ 
+  flex-direction: row;
+}
+:host::ng-deep .check-48 .mat-pseudo-checkbox{
+  margin-right:12px;
+}
+/* 
+:host::ng-deep .check-48.mat-list-base .mat-list-item, .mat-list-base .mat-list-option {
+  height: 48px !important;
+  color: $amber-900;
+}
+
+:host::ng-deep .check-56 .mat-pseudo-checkbox{
+  margin-right:12px;
+}
+:host::ng-deep .check-56.mat-list-base .mat-list-item, .mat-list-base .mat-list-option {
+  height: 56px;
+  color: green;
+
+}
+:host::ng-deep .check-56 .mat-list-base .mat-list-option.mat-list-option .mat-list-item-content-reverse .mat-list-text {
+  padding-left: 0;
+  padding-right: 0px;
+}
+:host::ng-deep .check-56 .mat-list-base .mat-list-item .mat-list-text, .mat-list-base .mat-list-option .mat-list-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+*/
