@@ -135,10 +135,10 @@
     </button>
   </div>
   <div class="with_icons">
-    <button mat-stroked-button disabled class="button outlined_text_disabled">
-     <img src="../../../assets/images/loader-spoke.gif" width="24px" height="24px" style="margin-right: 5px;" alt="image"/>
-      Outlined button
-    </button>
+      <button mat-stroked-button disabled class="button outlined_text_disabled">
+      <img src="../../../assets/images/loader-spoke.gif" width="24px" height="24px" style="margin-right: 5px;" alt="image"/>
+        Outlined button
+      </button>
   </div>
 </div>
 <div class="outlined_disabled_variant">
@@ -192,10 +192,10 @@
       </button>
     </div>
     <div class="ending_icon">
-      <button mat-button class="button text_button">
-        Text button
-        <i class="uis uis-angle-right-b disabled_icon"></i>
-      </button>
+        <button mat-button class="button text_button">
+          Text button
+          <i class="uis uis-angle-right-b disabled_icon"></i>
+        </button>
     </div>
     <div class="with_icons">
       <button mat-button class="button text_button">
@@ -287,3 +287,15 @@
   </div>
   </div>
   
+
+  <!-- <div *ngIf="hidefield" class="floating-label" [ngClass]= "ispwderror==true?'invalid':''">
+    <input class="passField floating-input" [formControl]="password"  type="{{passwordField}}" placeholder=" ">
+    <span class="highlight"></span>
+    <label>Password</label>
+    <span class="input-img">
+        <i class="eye fa fa-eye-slash"
+        (click)="passwordField == 'password' ? passwordField = 'text' :  passwordField = 'password'"
+        aria-hidden="true"></i>                
+      </span>
+      <p *ngIf='ispwderror' class="error">Incorrect password</p> 
+    </div> -->     

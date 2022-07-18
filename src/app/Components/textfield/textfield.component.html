@@ -32,7 +32,19 @@
           <mat-error *ngIf="email.invalid" >{{getErrorMessage()}}</mat-error>
          
         </mat-form-field>
-</div>
+    </div>
+    <div style="font-size: 16px;">  
+        <mat-form-field appearance="outline">
+            <mat-label>Enter your password</mat-label>
+            <input matInput [type]="hide ? 'password' : 'text'">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+              <mat-icon><i [ngClass]= "hide==true?'uit uit-eye':'uit uit-eye-slash'"></i></mat-icon>
+           
+            </button>
+            <mat-hint class="assertive_text">Assestive text</mat-hint>
+          </mat-form-field>
+    </div>
+
 <!-- Test -->
 <!-- <div *ngIf="" class="input_error" style="font-size: 16px;">
     <mat-form-field appearance="outline" class="form_field">

@@ -53,20 +53,22 @@ $my-theme: mat.define-light-theme((
   src: url('assets/fonts/Cera-Pro-Medium.otf');
 }
 
-// ********BUTTONS STYLING********
+
+// ********BUTTONS STYLING start********
 // Button line height 44px for web and 36px for mobile
 // Styling for web
 
+// Button Angular Material stylings starts
 .mat-raised-button,.mat-stroked-button,.mat-button{
   display: flex;
   align-items: center !important;
   justify-content: center !important;
   text-transform: uppercase;
-
-
 }
+
 .mat-stroked-button{
   border: 1px solid #DADADC !important;
+  
 }
 .mat-raised-button{
   border: 1px solid #4FA333 !important;
@@ -97,11 +99,13 @@ gap: 4px;
   border:1px solid red !important;
   color: white !important;
 }
-// Custom classes
+// Button Angular Material stylings ends
 
+//Button Custom classes starts
 .button-primary-large{
   background-color: #4FA333;
   color: $surface-white;
+  font-size: 18px;
 }
 
 // icon must be in large desktop 20px
@@ -109,7 +113,7 @@ gap: 4px;
   color:  #FFFFFF;
 }
 .uit-image.primary{
-  color:  #FFFFFF;
+  color: $surface-white !important;
 }
 .uis-angle-right-b.grey{
   color: rgba(95, 110, 133, 0.4);
@@ -153,6 +157,16 @@ gap: 4px;
 .text_button_warn_variants{
   display: flex;
 }
+//Button Custom classes end
+
+// *****BUTTON STYLING ENDS*****
+
+
+
+
+// *****INPUT FIELD STYLINGS STARTS****** 
+// Input Angular material styling starts
+
 .input_label{
   font-size: 16px;
   // line-height: 20px;
@@ -168,9 +182,11 @@ gap: 4px;
   width: 328px;
   height: 100px !important;
 }
-.uit-image,.uit-search.input{
-  color:rgba(95, 110, 133, 0.4);
-  font-size: 24px;
+.uit-image.input,.uit-search.input,.uit-eye.input,.uit-eye-slash.input{
+  color:rgba(95, 110, 133, 0.4) !important;
+  font-size: 24px !important;
+  position: relative;
+  top: -2px;  
 }
 
 .mat-form-field-appearance-outline .mat-form-field-outline {
@@ -186,9 +202,6 @@ gap: 4px;
 .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
   color: $surface-secondary !important;
 }
-// .mat-input-element{
-//   color: #020305 !important;
-// }
 
 .mat-form-field-label{
   color:$OnSurface-mid-emphasis !important;
@@ -239,33 +252,15 @@ gap: 4px;
   color:$OnSurface-mid-emphasis;
   opacity: $opacity-mid-emphasis;
 }
-// .valid{
-//   .mat-form-field-label{
-//     color:green !important;
-//     opacity: $opacity-mid-emphasis;
-//     width: 100% !important;
-//   }
-//   .mat-form-field-appearance-outline .mat-form-field-outline-thick {
-//     color: $surface-secondary !important;
-//   }
-//   .assertive_text{
-//     color: green !important;
-//   }
-// }
-// .invalid{
-//   .mat-form-field-label{
-//     color:$OnSurface-mid-emphasis !important;
-//     opacity: $opacity-mid-emphasis;
-//     width: 100% !important;
-//   }
-//   .mat-form-field-appearance-outline .mat-form-field-outline-thick {
-//     color: green !important;
-//   }
-//   .assertive_text{
-//     color:$OnSurface-mid-emphasis;
-//     opacity: $opacity-mid-emphasis;
-//   }
-// }
+.mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-suffix .mat-icon-button {
+  width: 1.9em !important;
+}
+.mat-form-field-appearance-outline .mat-form-field-flex {
+  padding: 0 16px !important;
+}
+.mat-form-field-appearance-outline .mat-form-field-subscript-wrapper {
+  padding: 0 16px !important;
+}
 .mat-form-field.mat-form-field-invalid .mat-form-field-label{
   color: #f44336 !important;
 }
@@ -276,53 +271,73 @@ gap: 4px;
   color: red !important;
 }
 
-// .input_error{
-//   .form_field{
-//     width: 328px;
-//     height: 100px !important;
-//   }
-//   .mat-form-field-label{
-//     color:red!important;
-//     opacity: $opacity-mid-emphasis;
-//     width: 100% !important;
-//   }
-//   .mat-form-field.mat-focused .mat-form-field-label{
-//     color: red !important;
-//   }
-//   .mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label, .mat-form-field-appearance-outline.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
-//   transform: translateY(-1.27em) scale(0.75);
-//   width: 133.3333333333%;
-//   // background-color: $amber-100;
-//   // padding: 10px;
-//   // line-height: 10px;
-//   font-size: 16px !important;
-// }
-// .mat-form-field-appearance-outline .mat-form-field-outline {
-//   color: red !important;
-// }
-// .mat-form-field-appearance-outline .mat-form-field-outline-thick {
-//   color:red !important;
-// }
+// Input Angular material classes styling ends
 
-// .mat-form-field-appearance-outline .mat-form-field-outline-thick {
-//   color: red !important;
-// }
-// .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
-//   color: red !important;
-// }
-// .mat-form-field-appearance-outline .mat-form-field-outline{
-//   top: 0.8em !important;
-// }
-// .mat-form-field-appearance-outline .mat-form-field-infix {
-//   padding: 13px 0 13px 0 !important;
-// }
-// .input_text{
-//   font-family: 'cera-pro-regular' !important;
-//   font-size: 16px !important;
-//   font-weight: 400;
-//   letter-spacing: 0.0015em;
-// }
-// }
+// ********* TOOLBAR(APPBAR) STYLINGS STARTS*********
+//ToolBar Angular Material stylings starts
+.example-spacer {
+  flex: 1 1 auto;
+}
+.mat-toolbar-row, .mat-toolbar-single-row {
+  align-items: baseline;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 16px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  background: white;
+  height: 48px;
+  color: #020305;
+}
+
+//ToolBar Angular Material stylings ends
+
+// ToolBar (Appbar) Custom  classes styling  start
+.uit-image.standard_icon_3_2{
+  margin-left: 24px !important;
+}
+.uit-ellipsis-v.standard_icon_3_3{
+  margin-left: 24px !important;
+}
+.toolbar_title{
+  margin-left: 32px;
+}
+.toolbar_subtitle{
+  margin-left: 32px;
+  font-size: 12px;
+}
+.toolbar_title_close{
+  margin-left: 24px;
+}
+
+.subtitle{
+  height: 15px;
+  font-family: 'cera-pro-regular';
+  font-size: 12px;
+  letter-spacing: 0.4%;
+  color: $OnSurface-mid-emphasis;
+}
+.title_toolbar{
+  font-family: 'cera-pro-regular';
+  font-size: 18px;
+  position: relative;
+  font-weight: bold !important;
+  top: 12px;
+  letter-spacing: 0.4% !important;
+  color: #020305;
+}
+
+
+
+// ToolBar (Appbar) Custom classes styling ends
+
+// ********* TOOLBAR(APPBAR) STYLINGS END*********
+
+
+
+
 // Styling for mobile
 @media only  screen and (max-width:600px) {
   .mat-raised-button,.mat-stroked-button{
@@ -370,3 +385,186 @@ gap: 4px;
     color: #184E9E;;
   }
 }
+
+
+
+
+  /** ------------- Typography CSS -------------- **/
+// Depreciated Typography styling
+.Headline96-light {
+  font-family: 'cera-pro-light';
+  font-size: 9.6rem;
+  letter-spacing: -1.44px;
+}
+.Headline60-light {
+  font-family: 'cera-pro-light';
+  font-size: 6rem;
+  letter-spacing: -0.3px;
+}
+.Headline48-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 4.8rem;
+}
+.Headline34-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 3.4rem;
+  letter-spacing: 0.09px;
+}
+.Headline24-regular {
+  font-family: 'cera-pro-bold';
+  font-size: 2.4rem;
+}
+.Headline20-medium {
+  font-family:  'cera-pro-medium';
+  font-size: 2rem;
+  letter-spacing: 0.15px;
+}
+.Headline18-medium {
+  font-family: 'cera-pro-medium';
+  font-size: 1.8rem;    
+  line-height: 1.56;
+}
+.Headlineheadline-bold {
+  font-family:  'cera-pro-bold';
+  font-size: 1.6rem;
+  line-height: 1.35;
+}
+.body16-medium {
+  font-family: 'cera-pro-medium';
+  font-size: 1.6rem;
+  letter-spacing: 0.06px;
+}
+.subtitle16-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 1.6rem;
+  letter-spacing: 0.02px;
+}
+.body16-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 1.6rem;
+  letter-spacing: 0.06px;
+}
+.subtitle14-medium {
+  font-family: 'cera-pro-medium';
+  font-size: 1.4rem;
+  letter-spacing: 0.1px;
+}
+.button{
+  font-family: 'cera-pro-medium';
+  font-size: 14px;
+}
+.body14-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 1.4rem;
+  letter-spacing: 0.06px;
+}
+.caption12-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 1.2rem;
+  letter-spacing: 0.4px;
+}
+.captioncaption-3-regular {
+  font-family:'cera-pro-regular';
+  font-size: 1.1rem;
+  line-height: 1.35;
+}
+.caption-caption-2-medium {
+  font-family: 'cera-pro-medium';
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+}
+.headline-7-cap {
+  font-family: 'cera-pro-medium';
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+}
+.Overline10-regular {
+  font-family: 'cera-pro-regular';
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+
+
+
+/** Updated Typography styling **/  
+.headline-1{
+  font-family: 'cera-pro-light';
+  font-size: 9.6rem;
+  letter-spacing: -1.5%;
+}
+.headline-2{
+  font-family: 'cera-pro-light';
+  font-size: 6rem;
+  letter-spacing: -0.5%;
+}
+.headline-3{
+  font-family: 'cera-pro-regular';
+  font-size: 4.8rem;
+}
+.headline-4{
+  font-family: 'cera-pro-regular';
+  font-size: 3.4rem;
+  letter-spacing: 0.25%;
+}
+.headline-5{
+  font-family: 'cera-pro-regular';
+  font-size: 2.4rem;
+}
+.headline-6{
+  font-family:  'cera-pro-medium';
+  font-size: 2rem;
+  letter-spacing: 0.15px;
+}
+.headline-7{
+  font-family: 'cera-pro-medium';
+  font-size: 1.8rem;    
+}
+.subtitle-1{
+  font-family:  'cera-pro-regular';
+  font-size: 1.6rem;
+  letter-spacing: 0.15%;
+}
+.subtitle-2{
+  font-family: 'cera-pro-medium';
+  font-size: 1.4rem;
+  letter-spacing: 0.1 px;
+}
+.button{
+  font-family: 'cera-pro-medium';
+  font-size: 1.6rem;
+}
+.link-button{
+  font-family: 'cera-pro-medium';
+  font-size: 1.4rem;
+}
+.body-large{
+  font-family: 'cera-pro-regular';
+  font-size: 1.6rem;
+}
+.button-large{
+  font-family: 'cera-pro-medium';
+  font-size: 2.5rem;
+}
+.body-1{
+  font-family: 'cera-pro-medium';   // (primary-web contained-button)large:-44px ,  small-36px 
+  font-size: 1.6rem; //14px 
+  letter-spacing: 0.4%;
+}
+.body-2{
+  font-family: 'cera-pro-regular';
+  font-size: 1.4rem;
+  letter-spacing: 0.4%;
+}
+.caption{
+  font-family: 'cera-pro-regular';
+  font-size: 1.2rem;
+  letter-spacing: 0.4px;
+}
+.overline{
+  font-family:'cera-pro-regular';
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+

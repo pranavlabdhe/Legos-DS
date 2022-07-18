@@ -36,6 +36,9 @@ import { MatTableModule } from '@angular/material/table';
 import { DmtComponent } from './Components/dmt/dmt.component';
 import { MainNavComponent } from './Components/main-nav/main-nav.component';
 import { DialogComponent } from './dialog/dialog.component';
+import { AppbarComponent } from './Components/appbar/appbar.component';
+import { SimpleListsComponent } from './Components/simple-lists/simple-lists.component';
+import { PrimaryNavigationComponent } from './Components/primary-navigation/primary-navigation.component';
 
 @NgModule({
   declarations: [
@@ -55,9 +58,9 @@ import { DialogComponent } from './dialog/dialog.component';
     DmtComponent,
     MainNavComponent,
     DialogComponent,
-
-    
-
+    AppbarComponent,
+    SimpleListsComponent,
+    PrimaryNavigationComponent,
   ],
   imports: [
     BrowserModule,

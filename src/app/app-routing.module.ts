@@ -15,7 +15,9 @@ import { DialogComponent } from './dialog/dialog.component';
 import { PanSucessScreenComponent } from './Components/pan-sucess-screen/pan-sucess-screen.component';
 import { DmtComponent } from './Components/dmt/dmt.component';
 import { MainNavComponent } from './Components/main-nav/main-nav.component';
-
+import { SimpleListsComponent } from './Components/simple-lists/simple-lists.component';
+import { AppbarComponent } from './Components/appbar/appbar.component';
+import { PrimaryNavigationComponent } from './Components/primary-navigation/primary-navigation.component';
 const routes: Routes = [
   {path:'typography',component:TypographyComponent},
   {path:'button',component:ButtonComponent},
@@ -28,10 +30,13 @@ const routes: Routes = [
   {path:'layoutcol3',component:LayoutThreeColsComponent},
   {path:'material_layout',component:MaterialLayoutComponent},
   {path:'dialog',component:DialogComponent},
+  {path:'simple-list',component:SimpleListsComponent},
+  {path:'appbar',component:AppbarComponent},
   // {path:'suraksha_champ',component:SurakshaChampComponent},
   // {path:'pan_success',component:PanSucessScreenComponent},
   // {path:'dmt',component:DmtComponent},
-  // {path:'main_nav',component:MainNavComponent},
+  {path:'main_nav',component:MainNavComponent},
+  {path:'primary_nav',component:PrimaryNavigationComponent},
 ];
 
 @NgModule({
