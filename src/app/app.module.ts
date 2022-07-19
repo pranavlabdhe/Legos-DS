@@ -26,7 +26,7 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog'
-
+import {MatTabsModule} from '@angular/material/tabs';
 // ***ADDED MatInputModule***
 import { MatInputModule } from '@angular/material/input';
 // import { SurakshaChampComponent } from './Components/suraksha-champ/suraksha-champ.component';
@@ -82,6 +82,7 @@ import { PrimaryNavigationComponent } from './Components/primary-navigation/prim
     MatMenuModule,
     MatTableModule,
     MatIconModule,
+    MatTabsModule,
     MatDialogModule
   ],
   providers: [],

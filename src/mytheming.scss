@@ -145,6 +145,10 @@ gap: 4px;
 .text_button_variants{
   display: flex;
 }
+.text_button_disabled{
+  color: rgba(0, 0, 0, 0.26)!important;
+  font-family: 'cera-pro-medium' !important;
+}
 .text_button{
   color: #184E9E;
 }
@@ -301,9 +305,9 @@ gap: 4px;
 .uit-ellipsis-v.standard_icon_3_3{
   margin-left: 24px !important;
 }
-.toolbar_title{
-  margin-left: 32px;
-}
+// .toolbar_title{
+//   margin-left: 32px;
+// }
 .toolbar_subtitle{
   margin-left: 32px;
   font-size: 12px;
@@ -542,6 +546,11 @@ gap: 4px;
   font-family: 'cera-pro-regular';
   font-size: 1.6rem;
 }
+.body-small{
+  font-family: 'cera-pro-regular';
+  letter-spacing: 0.06px;
+  font-size: 14px;
+}
 .button-large{
   font-family: 'cera-pro-medium';
   font-size: 2.5rem;
@@ -568,3 +577,36 @@ gap: 4px;
 }
 
 
+// Primary navigation
+.ic_paynearby{
+  width: 60px;
+  height: 24px;
+  flex-grow: 0;
+  object-fit: contain;
+}
+// .mat-toolbar{
+//   display: flex;  
+//   height: 48px;
+//   gap: 30px;
+// }
+// .mat-toolbar a{
+//   text-decoration: none;
+//   color: #020305;
+//   font-family:  'cera-pro-medium';
+//   font-size: 12px;
+//   font-weight: 400;
+//   line-height: 15.08px;
+//   margin: 5px;
+// }
+// .nav_text{
+//   // margin-left: px !important;
+// }
+// .tab1{  
+//   // background-color: #184E9E;
+// }
+// .chevron_link_text{
+//   margin-right: 16px !important;
+// }
+// .uis-airplay{
+//   color: #020305;
+// }
