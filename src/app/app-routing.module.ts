@@ -18,6 +18,9 @@ import { MainNavComponent } from './Components/main-nav/main-nav.component';
 import { SimpleListsComponent } from './Components/simple-lists/simple-lists.component';
 import { AppbarComponent } from './Components/appbar/appbar.component';
 import { PrimaryNavigationComponent } from './Components/primary-navigation/primary-navigation.component';
+import { TabbarComponent } from './Components/tabbar/tabbar.component'; 
+import { TabbarsComponent } from './Components/tabbars/tabbars.component';
+import { Screen1Component } from './Components/screen1/screen1.component';
 const routes: Routes = [
   {path:'typography',component:TypographyComponent},
   {path:'button',component:ButtonComponent},
@@ -31,12 +34,15 @@ const routes: Routes = [
   {path:'material_layout',component:MaterialLayoutComponent},
   {path:'dialog',component:DialogComponent},
   {path:'simple-list',component:SimpleListsComponent},
-  {path:'appbar',component:AppbarComponent},
+  {path:'appbar',component:AppbarComponent},  
   // {path:'suraksha_champ',component:SurakshaChampComponent},
   // {path:'pan_success',component:PanSucessScreenComponent},
   // {path:'dmt',component:DmtComponent},
-  {path:'main_nav',component:MainNavComponent},
-  {path:'primary_nav',component:PrimaryNavigationComponent},
+  // {path:'main_nav',component:MainNavComponent},//old primary navigation
+  {path:'primary_nav',component:PrimaryNavigationComponent},// updated primary navigation with 
+  {path:'tabbar',component:TabbarComponent}, //tabbar with primary navigation and dialog
+  // {path:'tabbars',component:TabbarsComponent}, //all variants of tabbars 
+  {path:'screen1',component:Screen1Component} //includes with primary navigation along with tabbar and dialog
 ];
 
 @NgModule({

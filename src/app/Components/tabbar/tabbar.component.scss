@@ -1,0 +1,90 @@
+@import '../../../../node_modules/@shivani1699/designsystem/colors.scss';
+@font-face {
+    font-family: 'cera-pro-regular';
+    src: url('../../../assets/fonts/Cera-Pro-Regular.otf');
+  }
+  
+  @font-face {
+    font-family: 'cera-pro-bold';
+    src: url('../../../assets/fonts/Cera-Pro-Bold.otf');
+  }
+  @font-face {
+    font-family: 'cera-pro-light';
+    src: url('../../../assets/fonts/Cera-Pro-Light.otf');
+  }
+  
+  @font-face {
+    font-family: 'cera-pro-medium';
+    src: url('../../../assets/fonts/Cera-Pro-Medium.otf');
+  }
+.mat_tab_color{
+    color: $Accent-1;
+}
+.main_content{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    // background-color: $Accent-1;
+}
+.inner_content{
+    padding-top: 16px;
+    padding-left: 16px;
+    // padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+.inner_content_2{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 8px;
+}
+.label_1{
+    font-family: 'cera-pro-bold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: $Secondary;
+    text-decoration: none;
+}
+
+.label2_padding{
+    padding-right: 32px;
+    margin-left: 40px;
+}
+.tab_image{
+    font-size: 30px;
+    position: absolute;
+    left: 9px;
+    top: 2px;
+}
+.tab_text{
+    font-size: 14px;
+    font-family: 'cera-pro-regular';
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing:0.4px;
+    padding-left: 16px !important;
+    margin-top: 10px;
+}
+.circle{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #dadadc;
+  
+}
+
+@media screen and (max-width:599px){
+    .circle{
+        position: relative;
+        width: 80px;
+}
+.inner_content_2{
+    margin-top: 20px;
+}
+}

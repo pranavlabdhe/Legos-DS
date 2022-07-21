@@ -39,7 +39,11 @@ import { DialogComponent } from './dialog/dialog.component';
 import { AppbarComponent } from './Components/appbar/appbar.component';
 import { SimpleListsComponent } from './Components/simple-lists/simple-lists.component';
 import { PrimaryNavigationComponent } from './Components/primary-navigation/primary-navigation.component';
-
+import { TabbarComponent } from './Components/tabbar/tabbar.component';
+import { MatDialogTitle } from '@angular/material/dialog';
+import { DialogElementsExampleDialog1 } from './Components/tabbar/tabbar.component';
+import { TabbarsComponent } from './Components/tabbars/tabbars.component';
+import { Screen1Component } from './Components/screen1/screen1.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -61,6 +65,10 @@ import { PrimaryNavigationComponent } from './Components/primary-navigation/prim
     AppbarComponent,
     SimpleListsComponent,
     PrimaryNavigationComponent,
+    TabbarComponent,
+    DialogElementsExampleDialog1,
+    TabbarsComponent,
+    Screen1Component
   ],
   imports: [
     BrowserModule,
@@ -83,7 +91,7 @@ import { PrimaryNavigationComponent } from './Components/primary-navigation/prim
     MatTableModule,
     MatIconModule,
     MatTabsModule,
-    MatDialogModule
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

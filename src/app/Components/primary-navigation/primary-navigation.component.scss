@@ -1,3 +1,4 @@
+@import '../../../../node_modules/@shivani1699/designsystem/colors.scss';
 .example-spacer {
     flex: 1 1 auto;
   }
@@ -6,11 +7,18 @@
     min-height: 500px;
   }
   .toolbar_class{
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06), 0px 4px 12px rgba(0, 0, 0, 0.1);
     display: flex;  
     height: 48px;
     gap: 30px;
     align-items: center;
+  }
+  .elevation{
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06), 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  .seprator{
+    margin: 0;
+    color: $outline-disabled;
+    opacity: $opacity-disabled;
   }
   .active{
     padding-bottom: 6px;
@@ -53,6 +61,7 @@
   .toolbar_class2{
     display: none;
   }
+
   @media screen and (max-width:1170px){
     .hide{
         display: none;
